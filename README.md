@@ -38,7 +38,9 @@ Font Awesome - Google Fonts
 ## Teamwork
 This project is a team-built Web Application
 
-### Team Members
+<br/>
+
+## Team Members
 - <strong>Ahmed Maher Algohary</strong> (Me) &nbsp;  <a href="https://www.linkedin.com/in/ahmed-maher-algohary/" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a>
 - <strong>Hajar Zain</strong> &nbsp;  <a href="https://www.linkedin.com/in/hajar-zain-603a7228a/" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a>
 - <strong>Nour Ali</strong>
@@ -50,9 +52,9 @@ This project is a team-built Web Application
 
 <br/>
 
-### 📥 Installation Instructions for Local Setup:
+## 📥 Installation Instructions for Local Setup:
 To download and run this project locally:
 1. Set up the Node.js environment on your PC from the official website
 2. Navigate to the project folder in your terminal.
-3. Run [npm install] to install the necessary dependencies.
-4. Start the development server with [npm start]
+3. Run [**npm install**] to install the necessary dependencies.
+4. Start the development server with [**npm start**]
