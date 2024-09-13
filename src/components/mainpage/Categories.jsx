@@ -1,6 +1,7 @@
 import React from "react";
 
 const Categories = () => {
+    // Sample data for category images and names
     const data = [
         {
             cateImg: "./images/category/dress.png",
@@ -49,11 +50,14 @@ const Categories = () => {
     ]
     return(
         <>
+            {/* Category container to display all categories */}
             <div className="category">
                 {data.map((value, index) => {
                     return(
                         <div className="box f_flex" key={index}>
-                            <img src={value.cateImg} alt="" />
+                            {/* Display category image with descriptive alt text for accessibility */}
+                            <img src={value.cateImg} alt={`${value.cateName} category`} />
+                            {/* Category name displayed under the image */}
                             <span>{value.cateName}</span>
                         </div>
                     )

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const TopCart = () => {
+	// Slider settings configuration
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -33,12 +34,14 @@ const TopCart = () => {
 			<Slider {...settings}>
 				{Tdata.map((value, index) => (
 					<div className="box product" key={index}>
+						{/* Top section with text */}
 						<div className="nametop d_flex">
 							<span className="tleft">{value.para}</span>
 							<span className="tright">{value.desc}</span>
 						</div>
+						{/* Image section */}
 						<div className="img">
-							<img src={value.cover} alt="" />
+							<img src={value.cover} alt={`Slide ${index}`} />
 						</div>
 					</div>
 				))}

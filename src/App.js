@@ -8,10 +8,10 @@ import Cart from "./common/cart/Cart";
 import Footer from "./common/footer/Footer";
 
 function App() {
-	const { productItems } = Data;
+	const { productItems } = Data;  // Extract productItems from Data
+	const [cartItem, setCartItem] = useState([]); // State to manage cart items
 
-	const [cartItem, setCartItem] = useState([]);
-
+	// Adds a product to the cart or updates the quantity if it already exists
 	const addToCart = (product) => {
 		const productExit = cartItem.find((item) => item.id === product.id);
 		if (productExit) {
@@ -27,6 +27,7 @@ function App() {
 		}
 	};
 
+	// Decreases the quantity of a product in the cart or removes it if the quantity is 1
 	const decreaseQty = (product) => {
 		const productExit = cartItem.find((item) => item.id === product.id);
 		if (productExit.qty === 1) {
@@ -45,14 +46,13 @@ function App() {
 	return (
 		<>
 			<Router basename={process.env.PUBLIC_URL}>
-				<Header cartItem={cartItem} />                                          
+				<Header cartItem={cartItem} />          
+				
 				<Routes>
 					<Route path="/" element={<Pages productItems={productItems} addToCart={addToCart} />} />
-						
-
 					<Route path="/cart" element={<Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty} />} />
-						
 				</Routes>
+
 				<Footer />
 			</Router>
 		</>

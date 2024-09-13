@@ -6,6 +6,7 @@ import Slider from "./Slider";
 const Home = () => {
     return(
         <>
+            {/* Home section contains both categories and slider */}
             <section className="home">
                 <div className="container d_flex">
                     <Categories />
