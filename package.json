@@ -1,7 +1,7 @@
 {
   "homepage": "http://ahmed-maher77.github.io/Online-Shopping-Web-Application__ITI-Team-Work",
   "name": "online-shopping-web-app",
-  "version": "0.1.0",
+  "version": "0.1.0", 
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
