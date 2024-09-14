@@ -28,7 +28,7 @@ const Register = () => {
 	};
 
 	return (
-        <div className="admin-wrapper"  style={{marginTop: '60px'}}>
+        <div className="admin-wrapper"  style={{paddingTop: '60px'}}>
 		<div className="container register-page">
 			{/* <header>
 				<img src="./favicon.svg" alt="Site-Logo" />
