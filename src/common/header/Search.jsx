@@ -29,7 +29,17 @@ const Search = ({ cartItem }) => {
 
 				{/* User Icon and Cart Section */}
 				<div className="icon f_flex width">
+					<div className="icon-Circle">
 					<i className="fa fa-user icon-circle"></i>
+					<ul>
+						<li>
+							<Link to='/login'>Login</Link>
+						</li>
+						<li>
+							<Link to='/register'>Register</Link>
+						</li>
+					</ul>
+					</div>
 					<div className="cart">
 						<Link to="/cart">
 							<i className="fa fa-shopping-bag icon-circle"></i>

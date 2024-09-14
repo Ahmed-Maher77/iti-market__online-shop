@@ -1,0 +1,163 @@
+.admin-wrapper {
+	font-family: "Poppins", sans-serif;
+	background-color: #0f3460;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.admin-wrapper .container {
+	max-width: 90%;
+	width: 100%;
+	margin: auto;
+}
+
+.login-page header,
+.register-page header {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.login-page header img,
+.register-page header img {
+	width: 100px;
+}
+
+.form-wrapper {
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	background-color: white;
+	border: none;
+}
+
+.form-wrapper form {
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-wrapper form .form-heading {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #249cfc;
+	padding-block: 1.5rem;
+}
+
+.form-wrapper form .input-box {
+	width: 100%;
+	padding: 0.8rem 1.5rem;
+	flex-basis: 100%;
+	position: relative;
+}
+
+.form-wrapper form .input-box input {
+	background-color: #d7d7d766;
+	width: 100%;
+	height: 50px;
+	border: 1.5px solid #959595;
+	border-radius: 10px;
+	padding: 1rem;
+	font-size: 1.1rem;
+}
+
+.form-wrapper form .input-box .icon {
+	font-size: 1.5rem;
+	margin-left: 0.5rem;
+	color: #666;
+	position: absolute;
+	transform: translateY(-50%);
+	top: 28px;
+	right: 40px;
+	width: fit-content;
+}
+
+.form-wrapper form .remember-forgot {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.form-wrapper form .remember-forgot label input {
+	margin-right: 0.4rem;
+	cursor: pointer;
+}
+
+.form-wrapper form .remember-forgot a {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.form-wrapper form .remember-forgot a:hover {
+	color: #249cfc;
+	letter-spacing: 0.1rem;
+}
+
+.form-wrapper form .submit-btn {
+	width: 100%;
+	padding: 0.3rem 1.5rem;
+	font-size: 1rem;
+	margin-block: 15px;
+}
+
+.form-wrapper form .submit-btn button {
+	background-color: #ffffff;
+	width: 100%;
+	height: 50px;
+	border: thin solid #5f5f5f;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-weight: 500;
+	transition: 0.3s ease;
+}
+
+.form-wrapper form .submit-btn button:hover {
+	background-color: #249cfc;
+	letter-spacing: 0.1rem;
+	border-color: #249cfc;
+	cursor: pointer;
+}
+
+.form-wrapper form .register-link {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.form-wrapper form .register-link p a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	transition: 0.3s ease;
+}
+
+.form-wrapper form .register-link p a:hover {
+	color: #249cfc;
+	letter-spacing: 0.1rem;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 531px) {
+	.form-wrapper {
+		min-width: 300px;
+		margin: 2rem auto;
+	}
+
+	.remember-forgot label + a {
+		margin-left: 1rem;
+	}
+}
+
+@media (min-width: 790px) {
+	.form-wrapper form .input-box .icon {
+		top: 36px;
+	}
+}

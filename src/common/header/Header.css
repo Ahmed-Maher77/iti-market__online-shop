@@ -17,7 +17,7 @@
 	padding: 15px 0;
 }
 .search .logo.width {
-  width: 100px;
+	width: 100px;
 }
 .search .logo img {
 	width: 100%;
@@ -107,7 +107,7 @@ header ul li a {
 	transition: 0.5s;
 	font-size: 15px;
 	font-weight: 400;
-  display: block;
+	display: block;
 }
 header ul li a:hover {
 	color: #ff014f;
@@ -124,6 +124,36 @@ header ul li a:hover {
 	background-color: #fff;
 	box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.2);
 	transition: 0.5s;
+}
+.icon-Circle {
+	position: relative;
+	&:hover ul {
+		display: block;
+	}
+	ul {
+		display: none;
+		position: absolute;
+		top: 55.2px;
+		left: -115px;
+		background-color: #e4e4e4;
+		width: 200px;
+		&::before {
+			position: absolute;
+			content: "";
+			border: 5px solid transparent;
+			border-bottom-color: #e4e4e4;
+			top: -9.5px;
+			right: 36px;
+		}
+		a {
+			display: block;
+			padding: 12px 17px;
+			transition: 0.3s;
+			&:hover {
+				background-color: #c7c7c7;
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -150,7 +180,6 @@ header ul li a:hover {
 		text-transform: uppercase;
 		line-height: 70px;
 	}
-
 
 	/* .opan{
     top: 18%;
@@ -220,13 +249,13 @@ header ul li a:hover {
 	.search .container {
 		/* flex-direction: column; */
 		align-items: center;
-    width: 100%;
+		width: 100%;
 	}
 
 	.search .logo {
-    width: 100px;
-    text-align: center;
-    margin-bottom: 10px;
+		width: 100px;
+		text-align: center;
+		margin-bottom: 10px;
 	}
 
 	.search-box {
@@ -266,44 +295,45 @@ header ul li a:hover {
 }
 
 @media (max-width: 992px) {
-  header .link {
-    display: none;
-  }
-  .close,
+	header .link {
+		display: none;
+	}
+	.close,
 	.open {
 		position: absolute;
-        top: 21px;
-        right: 20px;
-        color: #ff014f;
-        display: block;
-        font-size: 30px;
-        z-index: 999;
-        cursor: pointer;
+		top: 21px;
+		right: 20px;
+		color: #ff014f;
+		display: block;
+		font-size: 30px;
+		z-index: 999;
+		cursor: pointer;
 	}
-  .search-box.f_flex {
-    display: none;
-  }
-  .search .icon.width {
-    width: 100%;
-    margin-right: 45px;
-  }
-  .search .logo {
-    margin-bottom: -14px;
-  }
-  .header {
-    position: fixed;
-    top: -90px;
-    z-index: 99999;
-  }
-  .search {
-    box-shadow: -1px 15px 17px -8px #0000000d;
-  }
+	.search-box.f_flex {
+		display: none;
+	}
+	.search .icon.width {
+		width: 100%;
+		margin-right: 45px;
+	}
+	.search .logo {
+		margin-bottom: -14px;
+	}
+	.header {
+		position: fixed;
+		top: -90px;
+		z-index: 99999;
+	}
+	.search {
+		box-shadow: -1px 15px 17px -8px #0000000d;
+	}
 }
 
 @media (min-width: 888px) {
-  .close, .open {
-    top: 9px;
-}
+	.close,
+	.open {
+		top: 9px;
+	}
 }
 
 @media (min-width: 1211px) {

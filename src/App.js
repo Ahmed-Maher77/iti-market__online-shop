@@ -6,6 +6,8 @@ import Pages from "./pages/Pages";
 import Data from "./components/flashDeals/Data";
 import Cart from "./common/cart/Cart";
 import Footer from "./common/footer/Footer";
+import Login from "./components/Login/Login";
+import Register from "./components/Login/Register";
 
 function App() {
 	const { productItems } = Data;  // Extract productItems from Data
@@ -51,6 +53,8 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Pages productItems={productItems} addToCart={addToCart} />} />
 					<Route path="/cart" element={<Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty} />} />
+					<Route path="/login" element={<Login />} />
+                	<Route path="/register" element={<Register />} />
 				</Routes>
 
 				<Footer />
