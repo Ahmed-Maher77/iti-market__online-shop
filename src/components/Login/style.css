@@ -77,6 +77,11 @@
 	width: fit-content;
 }
 
+.form-wrapper form .input-box #Lock:hover{
+    cursor: pointer;
+    color: #249CFC;;
+}
+
 .form-wrapper form .remember-forgot {
 	width: 100%;
 	display: flex;
@@ -142,6 +147,10 @@
 .form-wrapper form .register-link p a:hover {
 	color: #249cfc;
 	letter-spacing: 0.1rem;
+}
+
+.form-wrapper .message{
+    margin-block: 1rem;
 }
 
 /*Media Queries*/

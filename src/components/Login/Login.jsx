@@ -7,6 +7,7 @@ const Login = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [message, setMessage] = useState("");
+	const [CurrentPassVisibility, SetPassVisibility] = useState(false);
 
 	const handleLogin = (e) => {
 		e.preventDefault();
@@ -23,6 +24,11 @@ const Login = () => {
 		} else {
 			setMessage("Invalid credentials.");
 		}
+	};
+
+	//password visibility function
+	const togglePasswordVisibility = () => {
+		SetPassVisibility(!CurrentPassVisibility);
 	};
 
 	return (
@@ -45,12 +51,17 @@ const Login = () => {
 						</div>
 						<div className="input-box">
 							<input
-								type="password"
+								type={CurrentPassVisibility ? "text" : "password"}
 								placeholder="Password"
 								value={password}
 								onChange={(e) => setPassword(e.target.value)}
+								required
 							/>
-							<FaLock className="icon" />
+							<FaLock
+								className="icon"
+								id="Lock"
+								onClick={togglePasswordVisibility}
+							/>
 						</div>
 						<div className="remember-forgot">
 							<label>
