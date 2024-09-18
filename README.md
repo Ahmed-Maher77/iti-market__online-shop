@@ -1,60 +1,70 @@
-# Online Shopping Web Application (collaborative project)
-This project is an Online Shopping Web Application, designed to provide a seamless shopping experience. The application allows users to browse products, add them to a cart, and proceed to checkout with ease. The platform is built with scalability and performance in mind, ensuring a user-friendly interface and smooth navigation across devices.
+# Getting Started with Create React App
 
-<br/>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-💻 **Used Technologies:** <br>
-- **React.js:** For building the user interface and managing state.
-- **React Slick:** For creating a responsive and interactive slider component.
-- **React Router:** For managing navigation between different pages.
-- **HTML & CSS:** For layout and styling.
-- **Node.js:** For local development and running the application.
-- **Git:** version control system to track changes in the code, manage collaboration between the team members
+## Available Scripts
 
-- **Other Libraries / Tools:** <br>
-Font Awesome - Google Fonts
+In the project directory, you can run:
 
+### `npm start`
 
-<br/>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-🌐**Demo (Live Preview):** <a href="https://online-shopping-web-application.vercel.app/" target="_blank">https://online-shopping-web-application.vercel.app/</a> 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<br/>
+### `npm test`
 
-## ✨Key Features:
-- <b>Fully Responsive Design:</b> Ensures a consistent and optimal viewing experience across all devices and screen sizes.
-- <b>High Performance:</b> Optimized for fast load times and smooth interactions.
-- <b>Seamless Navigation:</b> Intuitive user interface with easy access to all features.
-- <b>Product Browsing:</b> Users can easily browse through a wide range of products.
-- <b>Cart Management:</b> Add products to the cart, adjust quantities, and proceed to checkout.
-- <b>High Accessibility:</b> Designed to be accessible to all users, including those with disabilities.
-- <b>Scalability:</b> Built to handle growth and additional features efficiently.
-- <b>Enhanced SEO:</b> Optimized for search engines to improve visibility and ranking.
-- <b>PWA:</b> Our web application is installable on various devices, offering the convenience of a mobile app across multiple platforms.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<br/>
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Teamwork
-This project is a team-built Web Application
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<br/>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Team Members
-- <strong>Ahmed Maher Algohary</strong> (Me) &nbsp;  <a href="https://www.linkedin.com/in/ahmed-maher-algohary/" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a>
-- <strong>Hajar Zain</strong> &nbsp;  <a href="https://www.linkedin.com/in/hajar-zain-603a7228a/" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a>
-- <strong>Nour Ali</strong>
-- <strong>Noura Gaafar</strong> 
-- <strong>Ahmed Elashry</strong> 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<!-- &nbsp;  <a href="https://www.linkedin.com/in/mina-farid-b325b623a" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a> -->
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<br/>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 📥 Installation Instructions for Local Setup:
-To download and run this project locally:
-1. Set up the Node.js environment on your PC from the official website
-2. Navigate to the project folder in your terminal.
-3. Run [**npm install**] to install the necessary dependencies.
-4. Start the development server with [**npm start**]
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
