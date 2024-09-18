@@ -11,6 +11,17 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
+/* scollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+/* scollbar */
 .background {
   background: #f6f9fc;
   padding: 50px 0;
