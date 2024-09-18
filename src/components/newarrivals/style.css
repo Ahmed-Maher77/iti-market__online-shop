@@ -19,25 +19,30 @@
 .content.grid.product {
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(2, 1fr) 
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .content.grid.product {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .content.grid.product {
     grid-template-columns: repeat(3, 1fr) !important;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .content.grid.product {
     grid-template-columns: repeat(4, 1fr) !important;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .content.grid.product {
     grid-template-columns: repeat(5, 1fr) !important;
+  }
+}
+@media (min-width: 1400px) {
+  .content.grid.product {
+    grid-template-columns: repeat(6, 1fr) !important;
   }
 }
