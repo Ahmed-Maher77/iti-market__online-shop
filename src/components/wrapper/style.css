@@ -23,7 +23,7 @@
     color: grey;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
     .wrapper .container.grid2 {
       grid-template-columns: 1fr;
     }
