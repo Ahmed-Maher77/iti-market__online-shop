@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Cart = ({ cartItem, addToCart, decreaseQty }) => {
+const Cart = ({ cartItem, addToCart, decreaseQty, removeFromCart }) => {
 	// Calculate total price of items in the cart
 	const totalPrice = cartItem.reduce(
 		(price, item) => price + item.qty * item.price,
@@ -42,7 +42,7 @@ const Cart = ({ cartItem, addToCart, decreaseQty }) => {
 									<div className="cart-items-function">
 										{/* Remove item from the cart */}
 										<div className="removeCart">
-											<button onClick={() => decreaseQty(item)} aria-label={`Remove ${item.name}`}>
+											<button onClick={() => removeFromCart(item)} aria-label={`Remove ${item.name}`}>
 												<i className="fa-solid fa-xmark"></i>
 											</button>
 										</div>

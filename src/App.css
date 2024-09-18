@@ -174,8 +174,11 @@ button {
   position: relative;
   border-radius: 8px;
   box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
-  margin: 10px;
+  /* margin: 10px; */
 }
+/* .contentWidth .box.product {
+  min-height: 214px;
+} */
 .product h3 {
   font-weight: 400;
   font-size: 17px;
@@ -308,3 +311,35 @@ button {
   color: grey;
 }
 /*----- heading -------*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.slick-list .slick-track {
+  display: flex;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .annocument .container.d_flex {
+    flex-direction: column;
+    gap: 10px
+  }
+  .annocument .container.d_flex > div {
+    width: 100% !important;
+  }
+}
+
+.disable-link,
+.disable-link:hover {
+  color: #ccc;
+  cursor: default;
+}
