@@ -130,6 +130,9 @@ header ul li a:hover {
 	&:hover ul {
 		display: block;
 	}
+	.fa-user.icon-circle {
+		cursor: pointer;
+	}
 	ul {
 		display: none;
 		position: absolute;
@@ -137,6 +140,7 @@ header ul li a:hover {
 		left: -115px;
 		background-color: #e4e4e4;
 		width: 200px;
+		z-index: 999999;
 		&::before {
 			position: absolute;
 			content: "";

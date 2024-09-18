@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../components/assets/images/logo1.svg";
 import { Link } from "react-router-dom";
 
 const Search = ({ cartItem }) => {
+	const [showLogin, setShowLogin] = useState(false)
 	// to toggle 'active' class based on scroll position
 	window.addEventListener("scroll", function () {
 		const search = document.querySelector(".search");
@@ -30,8 +31,8 @@ const Search = ({ cartItem }) => {
 				{/* User Icon and Cart Section */}
 				<div className="icon f_flex width">
 					<div className="icon-Circle">
-					<i className="fa fa-user icon-circle"></i>
-					<ul>
+					<i className="fa fa-user icon-circle" onClick={() => setShowLogin(prev => !prev)}></i>
+					<ul style={{display: `${showLogin? 'block' : 'none'}`}}>
 						<li>
 							<Link to='/login'>Login</Link>
 						</li>
