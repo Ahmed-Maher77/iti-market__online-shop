@@ -1,4 +1,4 @@
-# Online Shopping Web Application (collaborative project)
+# ITI Market - Online Shopping Web Application
 This project is an Online Shopping Web Application, designed to provide a seamless shopping experience. The application allows users to browse products, add them to a cart, and proceed to checkout with ease. The platform is built with scalability and performance in mind, ensuring a user-friendly interface and smooth navigation across devices.
 
 ---
@@ -37,7 +37,7 @@ This project is an Online Shopping Web Application, designed to provide a seamle
 
 ## 👀 Website Preview:
 <a href="https://online-shopping-web-application.vercel.app/" title="demo">
-  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+  <img src="https://github.com/user-attachments/assets/d18cb35c-1ec9-42a4-84d3-c515b8c53c6e" alt="website preview - UI Mockup" width="400">
 </a>
 
 ---
