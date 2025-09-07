@@ -1,7 +1,7 @@
 # Online Shopping Web Application (collaborative project)
 This project is an Online Shopping Web Application, designed to provide a seamless shopping experience. The application allows users to browse products, add them to a cart, and proceed to checkout with ease. The platform is built with scalability and performance in mind, ensuring a user-friendly interface and smooth navigation across devices.
 
-<br/>
+---
 
 💻 **Used Technologies:** <br>
 - **React.js:** For building the user interface and managing state.
@@ -9,17 +9,16 @@ This project is an Online Shopping Web Application, designed to provide a seamle
 - **React Router:** For managing navigation between different pages.
 - **HTML & CSS:** For layout and styling.
 - **Node.js:** For local development and running the application.
-- **Git:** version control system to track changes in the code, manage collaboration between the team members
+- **Git:** a version control system to track changes in the code, manage collaboration between the team members
+- **Other Libraries / Tools:** 
+  - Font Awesome
+  - Google Fonts
 
-- **Other Libraries / Tools:** <br>
-Font Awesome - Google Fonts
-
-
-<br/>
+---
 
 🌐**Demo (Live Preview):** <a href="https://online-shopping-web-application.vercel.app/" target="_blank">https://online-shopping-web-application.vercel.app/</a> 
 
-<br/>
+---
 
 ## ✨Key Features:
 - <b>Fully Responsive Design:</b> Ensures a consistent and optimal viewing experience across all devices and screen sizes.
@@ -32,13 +31,13 @@ Font Awesome - Google Fonts
 - <b>Enhanced SEO:</b> Optimized for search engines to improve visibility and ranking.
 - <b>PWA:</b> Our web application is installable on various devices, offering the convenience of a mobile app across multiple platforms.
 
-<br/>
+---
 
 
 ## Teamwork
 This project is a team-built Web Application
 
-<br/>
+---
 
 ## Team Members
 - <strong>Ahmed Maher Algohary</strong> (Me) &nbsp;  <a href="https://www.linkedin.com/in/ahmed-maher-algohary/" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a>
