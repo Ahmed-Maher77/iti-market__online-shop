@@ -49,7 +49,7 @@ This project is a team-built Web Application
 
 <!-- &nbsp;  <a href="https://www.linkedin.com/in/mina-farid-b325b623a" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a> -->
 
-<br/>
+---
 
 ## 📥 Installation Instructions for Local Setup:
 To download and run this project locally:
